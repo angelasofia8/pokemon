@@ -18,13 +18,19 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(LayoutInflater.from(this))
         setContentView(binding.root)
 
-       val cod = binding.camp1.text.toString().toInt()
-       val nombre = binding.camp2.text.toString()
-       val codedep = binding.camp3.text.toString().toInt()
 
-        val manager = ManagerBd(this)
-        manager.insertData(5,"nombre",3)
-        Toast.makeText(this,"Base de Datos Creada",Toast.LENGTH_SHORT).show()
+
+        val btn = binding.btn
+
+        btn.setOnClickListener(){
+            val cod = binding.camp1.text.toString().toInt()
+            val nombre = binding.camp2.text.toString()
+            val codedep = binding.camp3.text.toString().toInt()
+            val manager = ManagerBd(this)
+            manager.insertData(cod,nombre,codedep)
+            Toast.makeText(this,"Base de Datos Creada",Toast.LENGTH_SHORT).show()
+        }
+
     }
 }
 
