@@ -36,6 +36,21 @@ data class ManagerBd(val context: Context) {
         return  resul
 
     }
+
+    fun inserData2(code:Int,name:String,tel:Int,addres:String,ciud:String):Long{
+        openBdWr()
+
+        val contenedor2 = ContentValues()
+        contenedor2.put("cod",code)
+        contenedor2.put("nombre",name)
+        contenedor2.put("telefono",tel)
+        contenedor2.put("direccion",addres)
+        contenedor2.put("ciudad",ciud)
+
+        val resul= bd.insert("Data",null,contenedor2)
+
+        return resul
+    }
 }
 
 
