@@ -30,7 +30,7 @@
             android:inputType="number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="code"
+            android:hint="code"
             tools:layout_editor_absoluteX="-27dp"
             tools:layout_editor_absoluteY="282dp"
             tools:ignore="MissingConstraints" />
@@ -40,7 +40,7 @@
             android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ciudad"
+            android:hint="ciudad"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="108dp"
             tools:ignore="MissingConstraints" />
@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="40dp"
-            android:text="codedep"
+            android:hint="codedep"
             app:layout_constraintBottom_toTopOf="@+id/camp1"
             tools:layout_editor_absoluteX="-16dp" />
 
