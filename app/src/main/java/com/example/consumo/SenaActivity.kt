@@ -18,7 +18,7 @@ class SenaActivity : AppCompatActivity() {
             val intent = Intent(this, MapsActivity::class.java)
             intent.putExtra("latitud", 2.4828269969022605)
             intent.putExtra("longitud", -76.56227794451196)
-            intent.putExtra("title", "Estoy en el Morro")
+            intent.putExtra("title", "Estoy en el Sena")
 
             // Iniciar la actividad con el Intent
             startActivity(intent)

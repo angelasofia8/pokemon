@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         val btn = binding.btn
 
-        btn.setOnClickListener(){
+        btn.setOnClickListener{
             val cod = binding.camp1.text.toString()
             val nombre = binding.camp2.text.toString()
             val codedep = binding.camp3.text.toString()

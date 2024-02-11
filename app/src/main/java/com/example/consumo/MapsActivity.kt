@@ -59,7 +59,8 @@ class MapsActivity: AppCompatActivity(), OnMapReadyCallback {
 
         val cualquiera = LatLng(latitud,longitud)
         mMap.addMarker(MarkerOptions().position(cualquiera).title(title))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(cualquiera))
+        val zoom = 15.0f
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(cualquiera,zoom))
 
     }
 

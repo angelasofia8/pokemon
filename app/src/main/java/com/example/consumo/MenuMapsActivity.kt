@@ -18,12 +18,15 @@ class MenuMapsActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // Inicializar el reproductor de audio
-        mediaPlayer = MediaPlayer.create(this, R.raw.audioclave) // Reemplaza "tu_audio" con el nombre de tu archivo de audio en la carpeta res/raw
+        fun audios(cambiar: Int){
+            mediaPlayer = MediaPlayer.create(this,cambiar)
+        }
 
         binding.button1.setOnClickListener {
             val intent = Intent(this, MorroActivity::class.java)
             startActivity(intent)
             // Reproducir audio al cambiar a la actividad MorroActivity
+            audios(R.raw.morroaudio)
             playAudio()
         }
 
@@ -31,12 +34,14 @@ class MenuMapsActivity : AppCompatActivity() {
             val intent = Intent(this, CaldasActivity::class.java)
             startActivity(intent)
             // Reproducir audio al cambiar a la actividad CaldasActivity
+            audios(R.raw.caldasdos)
             playAudio()
         }
 
         binding.button3.setOnClickListener {
             val intent = Intent(this, SenaActivity::class.java)
             startActivity(intent)
+            audios(R.raw.senaaudio)
             // Reproducir audio al cambiar a la actividad SenaActivity
             playAudio()
         }
