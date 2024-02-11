@@ -27,7 +27,7 @@ class MapsActivity: AppCompatActivity(), OnMapReadyCallback {
 
         binding = ActivityMapsBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        latitud = intent.getDoubleExtra("latitud",0.0).toDouble()
+        latitud = intent.getDoubleExtra("latitud",0.0)
         longitud = intent.getDoubleExtra("longitud",0.0)
         title = intent.getStringExtra("title").toString()
 
