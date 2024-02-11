@@ -51,6 +51,19 @@ data class ManagerBd(val context: Context) {
 
         return resul
     }
+    fun inserData3(title:String,longitud:Double,latitud:Double):Long{
+        openBdWr()
+
+        val contenedor3 = ContentValues()
+        contenedor3.put("title",title)
+        contenedor3.put("longitud",longitud)
+        contenedor3.put("latitud",latitud)
+
+
+        val resul= bd.insert("mapa",null,contenedor3)
+
+        return resul
+    }
 }
 
 

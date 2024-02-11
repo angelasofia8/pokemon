@@ -69,11 +69,18 @@
             android:text="tabla2"
             android:layout_gravity="center"
             tools:ignore="MissingConstraints" />
-        <Button
+      <!--  <Button
             android:id="@+id/btn3"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="Mapa"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints" /> -->
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Sitios"
             android:layout_gravity="center"
             tools:ignore="MissingConstraints" />
     </LinearLayout>

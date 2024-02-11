@@ -1,10 +1,10 @@
 package com.example.consumo
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.consumo.databinding.ActivityMainBinding
 import com.example.consumo.model.ManagerBd
 
@@ -42,8 +42,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,SdaTabla::class.java)
             startActivity(intent)
         }
-        binding.btn3.setOnClickListener {
-            val intent = Intent(this,MapsActivity::class.java)
+      //  binding.btn3.setOnClickListener {
+          //  val intent = Intent(this,MapsActivity::class.java)
+           // startActivity(intent)
+       // }
+        binding.btn4.setOnClickListener {
+            val intent = Intent(this,MenuMapsActivity::class.java)
             startActivity(intent)
         }
 

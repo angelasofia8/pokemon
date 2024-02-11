@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
     <application
         android:allowBackup="true"
@@ -11,6 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Consumo"
         tools:targetApi="31">
+        <activity
+            android:name=".SenaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaldasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuMapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MorroActivity"
+            android:exported="false" />
+
 
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
@@ -26,6 +41,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyC162bg5xfftD66bXYjOR5aoyJ2rezey4A" />
+
 
         <activity
             android:name=".MapsActivity"
