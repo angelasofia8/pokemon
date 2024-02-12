@@ -2,9 +2,9 @@ package com.example.consumo
 
 import android.content.Intent
 import android.media.MediaPlayer
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
+import androidx.appcompat.app.AppCompatActivity
 import com.example.consumo.databinding.ActivityMenuMapsBinding
 
 class MenuMapsActivity : AppCompatActivity() {
@@ -41,7 +41,7 @@ class MenuMapsActivity : AppCompatActivity() {
         binding.button3.setOnClickListener {
             val intent = Intent(this, SenaActivity::class.java)
             startActivity(intent)
-            audios(R.raw.senaaudio)
+            audios(R.raw.elbicho)
             // Reproducir audio al cambiar a la actividad SenaActivity
             playAudio()
         }

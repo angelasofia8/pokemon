@@ -1,5 +1,6 @@
 package com.example.consumo
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.consumo.databinding.ActivityMainBinding
 import com.example.consumo.model.ManagerBd
 
-class MainActivity : AppCompatActivity() {
+ class MainActivity : AppCompatActivity() {
     private  lateinit var  binding:ActivityMainBinding
 
 
@@ -48,6 +49,10 @@ class MainActivity : AppCompatActivity() {
        // }
         binding.btn4.setOnClickListener {
             val intent = Intent(this,MenuMapsActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btn5.setOnClickListener {
+            val intent = Intent(this,ListarDatosActivity::class.java)
             startActivity(intent)
         }
 

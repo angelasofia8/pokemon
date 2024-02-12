@@ -9,5 +9,6 @@ class Constantes {
         const val TABLA = "Create table ciudad (cod int, nombre text, codedep int)"
         const val DATA = "Create table Data (cod int, nombre text,telefono int,direccion text, ciudad text)"
         const val MAPA = "Create table mapa (title text, longitud float, latitud float)"
+        const val TRAER = "Select * from ciudad"
     }
 }
