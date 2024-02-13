@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="56dp"
+            android:text="Mi primera Tabla"
+            app:layout_constraintBottom_toTopOf="@+id/camp2"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <EditText
+            android:id="@+id/camp1"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="code"
+            tools:layout_editor_absoluteX="-27dp"
+            tools:layout_editor_absoluteY="282dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/camp2"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ciudad"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="108dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/camp3"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:hint="codedep"
+            app:layout_constraintBottom_toTopOf="@+id/camp1"
+            tools:layout_editor_absoluteX="-16dp" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Insert"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="tabla2"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints" />
+      <!--  <Button
+            android:id="@+id/btn3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Mapa"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints" /> -->
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Sitios"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Listar"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
