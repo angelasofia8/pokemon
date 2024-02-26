@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.consumo.app-mergeDebugResources-30:/values-mk/values-mk.xml",
+            "outputFile": "com.example.consumo.app-mergeDebugResources-31:/values-mk/values-mk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lisbe\\.gradle\\caches\\transforms-3\\ccf822540c21d616dbed824c8321d6f3\\transformed\\appcompat-1.6.1\\res\\values-mk\\values-mk.xml",

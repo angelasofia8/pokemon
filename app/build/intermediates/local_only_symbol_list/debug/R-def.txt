@@ -34,12 +34,15 @@ id cp4
 id cp5
 id descriptionTextView
 id imageView
+id img
 id listVCiudad
 id map
 id name
+id textView
 layout activity_caldas
 layout activity_listar_datos
 layout activity_main
+layout activity_main_activitypokemon
 layout activity_maps
 layout activity_menu_maps
 layout activity_morro

@@ -42,6 +42,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Consumo" >
         <activity
+            android:name="com.example.consumo.MainActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.consumo.ListarDatosActivity"
             android:exported="false" />
         <activity
@@ -79,7 +82,7 @@
             android:name="com.example.consumo.SdaTabla"
             android:exported="false" />
         <activity
-            android:name="com.example.consumo.MainActivity"
+            android:name="com.example.consumo.apipokemon.MainActivitypokemon"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -112,6 +115,10 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.consumo.com.squareup.picasso"
+            android:exported="false" />
     </application>
 
 </manifest>

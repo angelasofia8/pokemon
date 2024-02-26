@@ -3092,6 +3092,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3113,6 +3114,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id img
 id immediateStop
 id included
 id indeterminate
@@ -3346,6 +3348,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3505,6 +3508,7 @@ layout abc_tooltip
 layout activity_caldas
 layout activity_listar_datos
 layout activity_main
+layout activity_main_activitypokemon
 layout activity_maps
 layout activity_menu_maps
 layout activity_morro

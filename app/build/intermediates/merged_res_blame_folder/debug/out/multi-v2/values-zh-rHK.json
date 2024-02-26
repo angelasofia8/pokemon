@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.consumo.app-mergeDebugResources-30:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.example.consumo.app-mergeDebugResources-31:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lisbe\\.gradle\\caches\\transforms-3\\f94800d7548630afd17398b11f1a838f\\transformed\\play-services-basement-18.0.0\\res\\values-zh-rHK\\values.xml",

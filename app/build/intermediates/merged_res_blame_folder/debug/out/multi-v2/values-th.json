@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.consumo.app-mergeDebugResources-30:/values-th/values-th.xml",
+            "outputFile": "com.example.consumo.app-mergeDebugResources-31:/values-th/values-th.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lisbe\\.gradle\\caches\\transforms-3\\e626037062474702cfe394ae90d99c50\\transformed\\material-1.8.0\\res\\values-th\\values-th.xml",
